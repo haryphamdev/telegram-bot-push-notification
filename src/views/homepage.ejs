@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-7">
+                <form method="POST" action="/send-notification">
+                    <fieldset>
+                        <legend>A Telegram Notification</legend>
+                        <div class="form-group">
+                            <label for="fullName">Full name:</label>
+                            <input type="text" class="form-control" id="fullName" name="fullName" placeholder="Your full name..." required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email ..." required>
+                        </div>
+                        <div class="form-group">
+                            <label for="description">Description:</label>
+                            <textarea id="description" class="form-control" name="description" placeholder="Some text here..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary"> Send </button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
