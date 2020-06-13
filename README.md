@@ -16,12 +16,16 @@ This is a project for beginner to build a simple chatbot Telegram from scratch w
 ### 5. Update the .env file, then run project with the command: npm start
 ### 6. Enjoy!
 
+### 7. If you encounter any errors, watch my video: https://youtu.be/qjKYNYbw0WM
+
 ## Materials/References:
 - Telegram APIs:  https://core.telegram.org/api
 - Introduction about Telegram bot:  https://core.telegram.org/bots
 - Send message API: https://core.telegram.org/bots/api#sendmessage
 - Send animation API: https://core.telegram.org/bots/api#sendanimation
 - Get updates API (for getting group chat id) : https://core.telegram.org/bots/api#getupdates
+
+- Build an awesome bot with Node.js : https://www.youtube.com/playlist?list=PLNOjHC_BXrfB8DcOCHtKPWPMl4t9PG5cI
 
 ## Concepts Covered:
 - Set up a Node.js server with the Express Framework
